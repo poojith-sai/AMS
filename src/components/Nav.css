@@ -1,0 +1,15 @@
+a {
+    text-decoration:none;
+    color:inherit;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap: 30px;
+    padding:20px;
+}
+
