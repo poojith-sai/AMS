@@ -1,12 +1,13 @@
 a {
     text-decoration:none;
-    color:inherit;
+    color:whitesmoke;
     font-family: "Delius", cursive;
-    font-weight: 400;
+    font-weight: 900;
     font-style: normal;
 }
 
 .container{
+    background-color:#404040;
     display:flex;
     justify-content:center;
     gap: 30px;

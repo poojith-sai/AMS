@@ -6,6 +6,8 @@ import Athletes from "./pages/Athletes";
 import Coaches from "./pages/Coaches";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import SignUp from "./pages/SignUp";
+
 const App = () => {
   return (
     <>
@@ -13,10 +15,11 @@ const App = () => {
         <Nav />
         <Routes>
           <Route path="/contact" element={<Contact />} />
-          <Route path="/Home" element={<Home />} />
+          <Route path="/Home" element={ <Home /> } />
           <Route path="/Coaches" element={<Coaches />} />
           <Route path="/Athletes" element={<Athletes />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/sign" element={<SignUp />} />
         </Routes>
       </Router>
       
