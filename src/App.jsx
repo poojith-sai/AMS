@@ -7,7 +7,7 @@ import Coaches from "./pages/Coaches";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import SignUp from "./pages/SignUp";
-
+import './App.css';
 const App = () => {
   return (
     <>

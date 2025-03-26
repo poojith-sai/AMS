@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from "../components/Slider";
+import Features from "../sections/Features";
 const Home = () => {
   return (
     <>

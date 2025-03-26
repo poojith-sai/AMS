@@ -7,7 +7,7 @@ a {
 }
 
 .container{
-    background-color:#404040;
+    background-color:rgb(13, 17, 23);
     display:flex;
     justify-content:center;
     gap: 30px;
